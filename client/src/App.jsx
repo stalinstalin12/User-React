@@ -2,6 +2,7 @@
 import Login from './components/Login'
 import { BrowserRouter as Router,Routes,Route } from 'react-router-dom'
 import Home from './components/ViewPage'
+import CreateUser from './components/AddUser'
 
 function App() {
  
@@ -11,7 +12,7 @@ function App() {
    <Router>
       <Routes>
       <Route path="/" element={<Login />} />
-
+      <Route path="/add" element={<CreateUser />} />
         <Route path="/Login" element={<Login />} />
         <Route path="/Home" element={<Home />} /> {/* Define route for Dashboard */}
       </Routes>

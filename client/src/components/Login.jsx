@@ -25,7 +25,7 @@ export default  function Login() {
             console.log("login successful");
 
             // Navigate to the Dashboard component after successful login
-            navigate('/Home'); // Redirect to the path defined in App.js
+            navigate('/add'); // Redirect to the path defined in App.js
         } catch (err) {
             setError(err.response?.data?.error || 'login failed');
             alert('Login Failed');

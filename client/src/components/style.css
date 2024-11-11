@@ -39,12 +39,17 @@ color: #020100c2;  }
   
   .form-group input[type="text"],
   .form-group input[type="email"],
-  .form-group input[type="password"] {
+  .form-group input[type="password"],
+  .form-group input[type="file"] {
     width: 100%;
     padding: 12px;
     border-radius: 5px;
     border: 1px solid #ddd;
     outline: none;
+    
+  }
+  .form-group input[type="file"]{
+    background-color: #ebebeba8;
   }
   
   .checkbox-group {
